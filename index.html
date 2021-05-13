@@ -7,28 +7,65 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
+    <nav class="navbar navbar-dark  mt-3">
+        <a class="navbar-brand" href="#">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-list">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Hello<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+
     <main>
         <div class="main_content">
-            <p class="main_content_greet">Hello, i'm</p>
+            <div class="ellipse">
+                <p class="main_content_greet">Hello, i'm</p>
+                <img src="./assets/images/Ellipse.png" alt="Ellipse">
+            </div>
             <h1 class="main_content_name">
-                Diamond 
+                Diamond <br>
                 Nicholas
             </h1>
             <p class="main_content_text">Hello! I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
             <article class="see_my_works">
                 <h3>See my works</h3>
-                <hr>
+                <hr class="border">
                 <div class="icon_links">
-                    <i class="fab fa-stack-overflow"></i>
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-linkedin"></i>
-                    <i class="fab fa-angellist"></i>
+                    <i class="fab fa-stack-overflow works"></i>
+                    <i class="fab fa-github works"></i>
+                    <i class="fab fa-twitter works"></i>
+                    <i class="fab fa-linkedin works"></i>
+                    <i class="fab fa-angellist works"></i>
                 </div>
             </article>
+            <section class="recent_works">
+                <p>My recent works</p>
+                <h4>Portfolio</h4>
+            </section>
         </div>
     </main>
 
