@@ -167,4 +167,40 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-} 
+}
+.skills {
+    padding: 58px 41px 24px 41px;
+}
+.skills_card{
+    background: #212123;
+    box-shadow: 0px 1.91837px 23.0204px hsl(240,2%,13%);
+    border-radius: 3.83673px;
+}
+.skills_card .icon{
+    margin-top: 8px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.skills_card h6 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 24px;
+    margin-bottom: 18px;
+    margin-top: 8px;
+}
+.skills_card ul {
+    padding: 8px 80px 24px 24px;
+}
+.skills_card li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.0525em;
+    color: #7D7C84;
+    list-style: none;
+}
