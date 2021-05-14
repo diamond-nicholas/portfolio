@@ -85,7 +85,11 @@
 .showcase_card {
     background-image: url('./assets/images/bg.png');
     /* background-repeat: no-repeat; */
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 15px; */
+}
+.showcase_card_header {
+    padding-bottom: 40px;
 }
 .showcase_card_header h5 {
     font-family: 'Poppins', sans-serif;
@@ -99,6 +103,7 @@
 .showcase_card_tech {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 .showcase_card_list {
     list-style: none;
@@ -110,23 +115,16 @@
     padding-top: 20px ;
 }
 .showcase_button {
-    display: flex;
+    font-family: 'Poppins', sans-serif;
     background: #DB4747;
-    margin-top: 61px;
-    margin-left: 41px;
-    padding-top: 15px;
-    padding-left: 5px;
-}
-.showcase_button p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-}
-
-.showcase_button .go {
-    padding-left: 20px;
-    font-size: 30px;
+    margin-top: 10px;
+    padding-left: 25px; 
+    /* padding-top: 40px; */
+    margin-left: 20px;
 }
