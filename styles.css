@@ -254,3 +254,30 @@
     font-size: 16px;
     line-height: 24px;
 }
+.get_started_line {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: rotate(180deg);
+}
+.resume {
+    display: flex;
+    padding-top: 20px;
+}
+.resume p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DB4747;
+}
+.resume img {
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+.icon_links2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 36px;
+    padding-bottom: 50px;
+}
