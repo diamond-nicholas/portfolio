@@ -5,12 +5,17 @@
 .navbar {
     background: #1b1b1e;
 }
-.main_content, main {
+main {
     background: #1b1b1e;
+}
+.main_content{
+    background: #1b1b1e;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .ellipse {
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
     padding-top: 30px;
 }
 .main_content_greet {
@@ -18,18 +23,16 @@
     font-size: 12px;
     line-height: 18px;
     padding-top: 30px;
-    padding-left: 10px;
 }
 .ellipse img {
     width: 63px;
-    margin-left: 240px;
+    /* margin-left: 240px; */
 }
 .main_content_name {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     line-height: 100%;
     padding-top: 2px;
-    padding-left: 10px;
 }
 .main_content_text {
     font-family: 'Poppins', sans-serif;
