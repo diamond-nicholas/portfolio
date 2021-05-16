@@ -361,5 +361,9 @@ main {
         grid-template-columns: 1fr 1fr;
         grid-gap: 24px;
     }
-
+    .get_started {
+        padding-left: 359px;
+        padding-right: 517px;
+    }
+  
 }
