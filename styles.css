@@ -92,11 +92,17 @@ main {
 }
 .story_main {
     display: flex;
-    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.border2 {
+    border: 1px solid #FFFFFF;
+    width: 60%;
+    margin: 10px auto;
+    margin-top: 17px;
 }
 .story_main img {
-    width: 961px;
-    height: 560px;
+    width: 320px;
+    height: 188px;
 }
 .story_right {
     padding-left: 10px;
@@ -106,7 +112,7 @@ main {
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 100%;
     color: #FFFFFF;
     
@@ -377,5 +383,19 @@ main {
         padding-left: 359px;
         padding-right: 517px;
     }
-  
+    .story_main {
+        display: flex;
+        flex-direction: row;
+    }
+    .story_main img {
+        width: 961px;
+        height: 560px;
+    }
+   
+    .story_right h5{
+        font-size: 40px;
+    }
+    .border2 {
+        visibility: hidden;
+    }
 }
